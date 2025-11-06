@@ -1,0 +1,37 @@
+#' Herring data set
+#'
+#' The data set  is obtained from data recorded at the annual spawning survey
+#' in February / March (cruise series ‘Norwegian Sea NOR Norwegian spring-spawning
+#' herring spawning cruise in Feb_Mar’).
+#'
+#' @format ## `herringSet`
+#' A data frame with 7,240 rows and 60 columns:
+#' \describe{
+#' \item{startyear}{}
+#' \item{platform}{}
+#' \item{missiontype}{}
+#' \item{missionnumber}{}
+#' \item{cruise}{}
+#' \item{serialnumber}{}
+#' \item{catchsampleid}{}
+#' \item{specimenid}{}
+#' \item{agedeterminationid}{}
+#' \item{scientificname}{}
+#' \item{stationstartdate}{}
+#' \item{latitudestart}{}
+#' \item{longitudestart}{}
+#' \item{SPATIAL_STRATUM}{spatial strata of sample location}
+#' \item{SPATIAL_STRATUM_AREA}{ the area of the spatial strata in sq. km.}
+#' \item{REL_ABUNDANCE}{relative abundance at sampling location}
+#' \item{catchcount}{}
+#' \item{lengthsamplecount}{}
+#' \item{agesamplecount}{}
+#' \item{age}{}
+#' \item{readability}{1: Rings can be counted with certainty,
+#' 2: Rings can be counted with difficulty and some doubt,
+#' 3: Rings can not be counted, the calcified structure is considered unreadable - age is not assigned or assigned for QA purposes only
+#' 9: sample is broken or missing}
+#' \item{AGEREADER}{}
+#' }
+#' @source HI
+"herringSet"
