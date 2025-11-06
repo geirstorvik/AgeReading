@@ -1,12 +1,11 @@
-Package: AgeHerring
+Package: AgeReading
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Analysis of the effect of different readers of age on fish
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Geir Storvik
+Maintainer: Geir Storvik <geirs@math.uio.no>
+Description: Stock assessments of different fish stocks are often based on age structured data from catch and scientific surveys. Age information is obtained from reading calcified structures,like scales or otoliths. Many sources of uncertainty are involved  in the estimation of survey indices and commercial catch composition.  In this work, we analyze the effect of errors in age readings, including discrepancies between readers. We perform a model-based approach where age reading errors are defined through a parametric model. More about what it does (maybe more than one line)
+License: GPL
 Encoding: UTF-8
 LazyData: true
 Depends: 
